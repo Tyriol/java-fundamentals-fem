@@ -2,8 +2,9 @@ package objects;
 
 public class Rectangle {
 
-    private double length;
-    private double width;
+    protected double length;
+    protected double width;
+    protected double sides = 4;
 
     public Rectangle() {
         setLength(0);
