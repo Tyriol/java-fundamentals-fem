@@ -1,5 +1,7 @@
 package inheritance;
 
+import objects.Rectangle;
+
 public class InheritanceTester {
 
     public static void main(String[] args) {
@@ -10,5 +12,10 @@ public class InheritanceTester {
         square.setLength(25);
         double perimeter = square.calculatePerimeter();
         System.out.println(perimeter);
+
+        Rectangle rectangle = new Rectangle();
+        rectangle.print();
+
+        square.print("waffle");
     }
 }
